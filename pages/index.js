@@ -18,14 +18,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/fav.png" />
       </Head>
-      <nav className={styles.nav}>
-        <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
-        </ul>
-      </nav>
+    
+   
       <main className={styles.main}>
         <h1 className={styles.title}>
           MyblogSpace
@@ -59,6 +53,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+   
     </>
   )
 }
